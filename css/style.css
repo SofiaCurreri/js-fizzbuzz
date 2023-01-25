@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(8, 59, 76);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.boxx {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+    background-color: rgb(19, 137, 178);
+}
+
+.box-fizz {
+    background-color: rgb(12, 214, 161);
+}
+
+.box-buzz {
+    background-color: rgb(255, 209, 102);
+}
+
+.box-fizzbuzz {
+    background-color: rgb(240, 70, 111);
+}
+
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    list-style: none;
+}
